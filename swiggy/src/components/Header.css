@@ -1,0 +1,198 @@
+.btn-login{
+display: flex;
+float: right;
+text-align: center;
+}
+.lg{
+  background-color: white;
+  font-size:15px;
+  color:black;
+border:none;
+}
+.su{
+  background-color: rgb(19, 17, 17);
+  border:none;font-size:15px;
+  color:white;
+}
+
+
+.btn1{
+cursor: pointer;
+padding: 10px;
+}
+.head{
+  width: 680px;
+margin-left:20px;
+  margin-top: 50px;
+  min-height: 500px;
+}
+.h2-text{
+color:grey;
+ font-family:sans-serif;
+ font-size: 24px;
+    font-weight: 300;
+    width: 600px;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    letter-spacing: -.3px;
+}
+/* input location css  */
+
+.input-loc{
+width:80%;
+padding: 0 20px;
+background-color: transparent;
+height: 40px;
+border-radius: 0;
+}
+.search-bar{
+  display:flex;
+  margin-top: 25px;
+  border-color: coral;
+  border-style:solid;
+}
+.search-btn{
+  width:70%;
+ 
+}
+.search-btn{
+   background-color: rgb(228, 126, 67);
+   text-align: center;
+   color:white;cursor: pointer;
+   display: inline-block;
+   font-size:16px;
+   text-decoration: none;
+   right: 0;
+    height: 45px;
+    line-height: 45px;
+    width: 140px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: .53px;;
+}
+.bg-in:focus{
+  caret-color: orangered;
+}
+.bg-in
+{
+  height: 42px!important;
+  line-height: 28px!important;
+  padding-top: 0!important;
+  padding-left: 15px!important;
+  padding-right: 160px!important;
+  caret-color: #fc8019;
+  font-size: 18px!important;
+  font-weight: 500;
+border:0;
+
+}
+.h3{
+  color:rgb(128, 136, 136);
+font-family: sans-serifs;
+font-weight:400;
+font-size: 15px;
+color: #a9abb2;
+}
+.cities{
+  display: inline-block;
+  margin-left:25px;
+}
+
+.a-city
+{
+  text-decoration: none;
+  color:grey;
+}
+.cities:nth-child(2n) .a-city{
+  color:rgb(65, 66, 66);
+}
+/* outerpart */
+.outer-part{
+  display: flex;
+margin-left: 150px;
+}
+.img-c{
+
+  left: calc(50% + 80px);
+  background-repeat: no-repeat;
+  max-height:580px;
+  max-width:700px;
+  background-size: cover; 
+ background-position: 100%;
+  top: 0;
+  margin-left:35px;
+}
+.img-logo
+{
+ height: 55px;
+ width:95px;
+}
+/* different compoent as there is a page small betweem them */
+.bg-dark{
+  background-color: #2b1e16;
+  width:100%;
+  height:402.4px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+h2{
+  color:white;
+}
+ p{
+  color:rgb(184, 174, 174);
+}
+
+.div-comp
+{
+  min-height:322px;
+  min-width:206px;
+  position: relative;
+  padding-left: 30px;
+  margin-right:25px ;
+}
+
+.heading-hsec2{
+  font-size:40px;
+  margin-bottom: 0px;
+}
+.animation-heading::after{
+content: 'Hungry?';
+animation: yourAnimation 20.4s ease infinite normal none;
+  position:relative;
+}
+@keyframes yourAnimation{
+	0%     {content: "Hungry?"; opacity: 0; bottom: -30px;}
+    4.15%  {content: "Hungry?"; opacity: 1; bottom:0px;}
+    15.77% {content: "Hungry?"; opacity: 1; bottom:0px;}
+    16.65% {content: "Hungry?"; opacity: 0; bottom:20px; }
+	16.66% {content: "Unexpected guests?"; opacity:0; bottom:-30px}
+    20.81% {content: "Unexpected guests?"; opacity:1; bottom:0px  }
+    32.43% {content: "Unexpected guests?"; opacity:1; bottom:0px  }
+    33.32% {content: "Unexpected guests?"; opacity:0; bottom:20px }
+	33.33% {content: "Movie marathon?"; opacity:0; bottom:-30px}
+    37.48% {content: "Movie marathon?"; opacity:1; bottom:0px  }
+    49.1%  {content: "Movie marathon?"; opacity:1; bottom:0px  }
+    49.97% {content: "Movie marathon?"; opacity:0; bottom:20px }
+	49.98% {content: "Game night?"; opacity:0; bottom:-30px}
+    54.13% {content: "Game night?"; opacity:1; bottom:0px  }
+    65.75% {content: "Game night?"; opacity:1; bottom:0px  }
+    66.63% {content: "Game night?"; opacity:0; bottom:20px }
+	66.64% {content: "Cooking gone Wrong?"; opacity:0; bottom:-30px}
+    70.79% {content: "Cooking gone Wrong?"; opacity:1; bottom:0px  }
+    82.41% {content: "Cooking gone Wrong?"; opacity:1; bottom:0px  }
+    83.29% {content: "Cooking gone Wrong?"; opacity:0; bottom:20px }
+    83.30% {content: "Late night at office?"; opacity:0; bottom:-30px}
+    87.45% {content: "Late night at office?"; opacity:1; bottom:0px  }
+    99.07% {content: "Late night at office?"; opacity:1; bottom:0px  }
+    99.99% {content: "Late night at office?"; opacity:0; bottom:20px }
+}
+@media only screen and (max-width: 500px) {
+  .input-box::placeholder{
+      opacity: 0;
+  }
+  .outer-part{
+      font-size:30px;
+  }
+}
